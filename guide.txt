@@ -1,0 +1,72 @@
+//Get Category
+http://localhost:8000/api/job/category
+
+
+//Create Category
+http://localhost:8000/api/create/job/category
+
+
+<----------------------------------------------------------------->
+
+//Get City
+http://localhost:8000/api/job/city
+
+//Create City
+http://localhost:8000/api/create/job/city
+
+
+<---------------------------------------------------------------->
+
+
+//Get Job Level
+http://localhost:8000/api/job/level
+
+
+//Create Job Level
+http://localhost:8000/api/create/job/level
+
+
+<----------------------------------------------------------------->
+
+
+//Get All Job post
+http://localhost:8000/api/job/posts
+
+
+//Get Job Post ById
+http://localhost:8000/api/job/posts?post_id=1
+
+
+//Get Filter Job Post
+http://localhost:8000/api/job/posts/search?
+
+params 
+  city_id
+  title
+  salary
+  category_id
+  level_id
+
+
+
+<----------------------------------------------->
+
+//login
+http://localhost:8000/api/login
+
+//Register
+http://localhost:8000/api/register
+
+
+//logout 
+http://localhost:8000/api/logout
+
+
+<------------------------------------------------>
+
+//User Profile By ById
+http://localhost:8000/api/user/search?userID=1
+
+
+
+
